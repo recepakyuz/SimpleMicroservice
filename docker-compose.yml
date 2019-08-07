@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  testservice:
+    image: testservice:latest
+    build:
+      context: .
+      dockerfile: TestService/Dockerfile  
+  apigateway:
+    image: apigateway:latest
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    container_name: apigateway
+    ports:
+      - "8080:80"
+  consul:
+    image: consul:latest
+    command: consul agent -dev -log-level=warn -ui -client=0.0.0.0
+    hostname: consul
+    container_name: consul
+    ports:
+      - "8500:8500"

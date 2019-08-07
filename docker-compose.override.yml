@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  testservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  apigateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:80"
+
+  consul:
+    ports:
+    - "8500:8500"
