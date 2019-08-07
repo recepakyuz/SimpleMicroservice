@@ -1,0 +1,51 @@
+version: '3.4'
+
+services:
+  apigateway:
+    image: apigateway:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ApiGateway"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_apigateway$
+    volumes:
+      - C:\Users\Casper\Desktop\microservice\MicroserviceDemo\ApiGateway:/app
+      - C:\Users\Casper\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_apigateway$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_apigateway$ \"bin/Debug/netcoreapp2.2/ApiGateway.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  testservice:
+    image: testservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "TestService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_testservice$
+    volumes:
+      - C:\Users\Casper\Desktop\microservice\MicroserviceDemo\TestService:/app
+      - C:\Users\Casper\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_testservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_testservice$ \"bin/Debug/netcoreapp2.2/TestService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+

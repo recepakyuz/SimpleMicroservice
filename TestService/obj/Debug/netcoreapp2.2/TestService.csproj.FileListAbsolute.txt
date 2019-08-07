@@ -1,0 +1,17 @@
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.AssemblyInfo.cs
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\TestService.deps.json
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\TestService.runtimeconfig.json
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\TestService.runtimeconfig.dev.json
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\TestService.dll
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.csprojAssemblyReference.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.RazorAssemblyInfo.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.RazorAssemblyInfo.cs
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.RazorTargetAssemblyInfo.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\TestService.pdb
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.dll
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.pdb
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\Infrastructure.dll
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\bin\Debug\netcoreapp2.2\Infrastructure.pdb
+C:\Users\Casper\source\repos\MicroserviceDemo\TestService\obj\Debug\netcoreapp2.2\TestService.csproj.CopyComplete

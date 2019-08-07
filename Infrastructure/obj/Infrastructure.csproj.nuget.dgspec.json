@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Casper\\Desktop\\microservice\\MicroserviceDemo\\Infrastructure\\Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Casper\\Desktop\\microservice\\MicroserviceDemo\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\microservice\\MicroserviceDemo\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\Casper\\Desktop\\microservice\\MicroserviceDemo\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Desktop\\microservice\\MicroserviceDemo\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

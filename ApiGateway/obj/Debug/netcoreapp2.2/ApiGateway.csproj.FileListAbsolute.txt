@@ -1,0 +1,11 @@
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfo.cs
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.deps.json
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.json
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.dev.json
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.dll
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csprojAssemblyReference.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorAssemblyInfo.cache
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorAssemblyInfo.cs
+C:\Users\Casper\source\repos\MicroserviceDemo\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorTargetAssemblyInfo.cache

@@ -1,0 +1,21 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "testservice",
+      "UpstreamPathTemplate": "/api/test/{everything}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "consul",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

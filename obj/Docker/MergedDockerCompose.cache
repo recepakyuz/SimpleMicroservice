@@ -1,0 +1,30 @@
+services:
+  apigateway:
+    build:
+      context: C:\Users\Casper\Desktop\microservice\MicroserviceDemo
+      dockerfile: ApiGateway/Dockerfile
+    container_name: apigateway
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway:latest
+    ports:
+    - published: 8080
+      target: 80
+  consul:
+    command: consul agent -dev -log-level=warn -ui -client=0.0.0.0
+    container_name: consul
+    hostname: consul
+    image: consul:latest
+    ports:
+    - published: 8500
+      target: 8500
+  testservice:
+    build:
+      context: C:\Users\Casper\Desktop\microservice\MicroserviceDemo
+      dockerfile: TestService/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: testservice:latest
+    ports:
+    - target: 80
+version: '3.4'
